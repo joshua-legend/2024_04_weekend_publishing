@@ -1,0 +1,51 @@
+.apple {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: black;
+  background-color: white;
+  width: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.round_button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appleIcon {
+  background-color: black;
+  color: white;
+}
+
+.emailIcon {
+  background-color: skyblue;
+  color: white;
+}
+
+.naver {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
